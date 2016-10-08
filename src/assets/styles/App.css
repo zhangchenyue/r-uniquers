@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+.App-view,
+.App-view .page-enter,
+.App-view .page-leave {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow-x: hidden;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.App-view .page-enter {
+  width: 100%;
+  min-height: 100%;
+  background-color: white;
+  z-index: 200;
+  animation: fadeIn .5s both ease-in;
+}
+
+.App-view .page-leave {
+  z-index: 100;
+  animation: fadeOut .5s both ease-in;
+}
+
+
+/* iphone (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 767px) {
+    .App-view .page-enter {
+        animation: slideInRight .5s both ease-in;
+    }
+
+    .App-view .page-leave {
+      animation: slideOutLeft .5s both ease-in;
+    }
+}

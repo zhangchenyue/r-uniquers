@@ -1,0 +1,99 @@
+.Welcome{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #000000;
+}
+
+.Welcome .images {
+    max-width: 1200px;
+    width: 100%;
+    position: relative;
+    height: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #000000;
+}
+
+.Welcome .face-phone{
+    display: none;
+}
+
+.Welcome .face-pc{
+    display: block;
+}
+
+.Welcome .face-base{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+}
+
+.Welcome .face-left,
+.Welcome .face-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50%;
+}
+
+.Welcome .face-base img,
+.Welcome .face-left img,
+.Welcome .face-right img {
+    width: 100%;
+}
+
+.Welcome .face-left {
+    left: 0;
+    opacity: 1;
+}
+
+.Welcome .face-right {
+    right: 0;
+    opacity: 1;
+}
+
+.Welcome .face-left:hover {
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.Welcome .face-right:hover{
+    opacity: 0;
+    transition: opacity 1s; 
+}
+
+
+.Welcome .face-phone-text {
+    position: absolute;
+    bottom: 0px;
+    transform: translateX(-50%);
+    left: 50%;
+    width: 100%;
+}
+
+.Welcome .face-phone-text img {
+    width: 100%;
+}
+
+.Welcome .face-phone-text-man,
+.Welcome .face-phone-text-woman{
+    display: none;
+}
+
+
+/* iphone (portrait and landscape) ----------- */
+
+@media only screen and (max-width: 767px) {
+    
+    .Welcome .face-phone{
+        display: block;
+    }
+
+    .Welcome .face-pc{
+        display: none;
+    }
+}
