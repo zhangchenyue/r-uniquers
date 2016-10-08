@@ -6,11 +6,10 @@ import Welcome from './components/Welcome';
 import Home from './components/Home';
 import Party from './components/Party'
 import OL from './components/OL'
-import Vacation from './components/Vacation'
+import Vacation from './components/Vacation';
 import About from './components/About';
 
-import 'bootstrap/dist/js/bootstrap';
-
+import 'imports?jQuery=jquery!bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import './assets/styles/index.css';
 
