@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ad from '../assets/images/ad1.jpg';
-import TopNav from './TopNav'
+import TopNav from './TopNav';
+import PageFooter from './PageFooter'
+import '../assets/styles/Home.css';
 
 class Home extends Component {
     constructor() {
@@ -12,11 +14,11 @@ class Home extends Component {
         return (
             <div className="Home">
                 <TopNav/>
-                <div id="u-carousel" className="carousel slide" data-ride="carousel" data-interval="2000">
+                <div className="Home-banner carousel slide" data-ride="carousel" data-interval="1500">
                     {/*-- 轮播（Carousel）指标 --*/}
                     <ol className="carousel-indicators">
-                        <li data-slide-to="0"/>
-                        <li data-slide-to="1" className=" active"/>
+                        <li data-slide-to="0" className=" active"/>
+                        <li data-slide-to="1"/>
                         <li data-slide-to="2" />
                         <li data-slide-to="3"/>
                     </ol>
@@ -40,6 +42,10 @@ class Home extends Component {
                         </div>
                     </div>
                 </div>
+                <div className="Home-content">
+                    {this.text}
+                </div>
+                <PageFooter/>
             </div>
         );
     }
