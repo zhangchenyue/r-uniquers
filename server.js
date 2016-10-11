@@ -16,11 +16,11 @@ server.locals.ENV_DEVELOPMENT = env == 'development';
 
 // must be first!
 server.use(compression())
-server.use(favicon(__dirname + '/build/favicon.ico'));
+server.use(favicon(__dirname + '/app/build/favicon.ico'));
 server.use(logger('dev'));
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({ extended: true }));
-server.use(express.static(path.join(__dirname, 'build')));
+server.use(express.static(path.join(__dirname, 'app','build')));
 
 
 server.use(require('./routes/api'));
