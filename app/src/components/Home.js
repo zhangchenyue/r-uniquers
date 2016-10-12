@@ -56,15 +56,15 @@ class Home extends Component {
                             <img className="Home-content-header-splitter" src={uSplitterImg} alt="" />
                             <div className="Home-content-section">
                                 <div className="Home-content-section-col">
-                                    <a href="#"><img src={u1_01Img}/></a>
-                                    <a href="#"><img src={u1_02Img}/></a>
+                                    <a href="#"><img src={u1_01Img}  alt=""/></a>
+                                    <a href="#"><img src={u1_02Img}  alt=""/></a>
                                 </div>
                                 <div className="Home-content-section-col">
-                                    <a href="#"><img src={u1_03Img}/></a>
-                                    <a href="#"><img src={u1_04Img}/></a>
+                                    <a href="#"><img src={u1_03Img}  alt=""/></a>
+                                    <a href="#"><img src={u1_04Img}  alt=""/></a>
                                 </div>
                                 <div className="Home-content-section-col hidden-xs">
-                                    <a href="#"><img src={u1_05Img}/></a>
+                                    <a href="#"><img src={u1_05Img}  alt=""/></a>
                                 </div>
                             </div>
                         </div>
