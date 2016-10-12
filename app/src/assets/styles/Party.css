@@ -1,0 +1,20 @@
+.Party-banner{
+    width: 100%;
+}
+
+
+.Party-content{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+    width: 100%;
+    max-width: 1200px;
+    padding: 1em;
+}
+
+
+@media only screen and (max-width: 767px) {
+   .Party-content-title {
+        max-height: 2em;
+    }
+}

@@ -1,5 +1,6 @@
-import React, {Component} from 'react'
+import React, { Component } from 'react'
 import TopNav from './TopNav'
+import Party from './Party'
 
 class Vacation extends Component {
     constructor() {
@@ -10,8 +11,8 @@ class Vacation extends Component {
     render() {
         return (
             <div>
-                <TopNav/>
-                <h1>{this.text}</h1>
+                <TopNav />
+                <Party />
             </div>
         )
     }
