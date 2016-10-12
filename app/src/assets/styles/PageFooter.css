@@ -9,6 +9,8 @@
 }
 
 .PageFooter-brandcode{
+    position: relative;
+    left: 1.5em; 
     height: 40px;
     width: 40px;
 }
@@ -25,5 +27,5 @@
 .PageFooter-subtext{
     font-size: .8em;
     padding-left: 1.5em; 
-    margin-bottom: .5em; 
+    margin-bottom: .2em; 
 }
