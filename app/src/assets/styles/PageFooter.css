@@ -1,0 +1,29 @@
+.PageFooter{
+    display: flex;
+    min-height: 100px;
+    margin-top: 3em;
+    padding: .8em 1em 0 1em;
+    background-color: #1c1c1f;
+    justify-content: space-around;
+    color: white;
+}
+
+.PageFooter-brandcode{
+    height: 40px;
+    width: 40px;
+}
+
+.PageFooter > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.PageFooter > div:nth-child(3)>p:last-child {
+    color: yellow;
+}
+
+.PageFooter-subtext{
+    font-size: .8em;
+    padding-left: 1.5em; 
+    margin-bottom: .5em; 
+}
