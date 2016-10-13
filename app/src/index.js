@@ -7,6 +7,7 @@ import Home from './components/Home';
 import Party from './components/Party'
 import OL from './components/OL'
 import Vacation from './components/Vacation';
+import Designer from './components/Designer';
 import About from './components/About';
 
 import 'imports?jQuery=jquery!bootstrap/dist/js/bootstrap';
@@ -22,6 +23,7 @@ ReactDOM.render((
       <Route path="/party" component={Party}/>
       <Route path="/ol" component={OL}/>
       <Route path="/vacation" component={Vacation}/>
+      <Route path="/designer" component={Designer}/>
       <Route path="/about" component={About}/>
     </Route>
   </Router>

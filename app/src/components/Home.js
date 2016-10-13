@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 import adImg from '../assets/images/ad1.jpg';
 import TopNav from './TopNav';
 import PageFooter from './PageFooter'
@@ -131,7 +132,9 @@ class Home extends Component {
                         </div>
                         <div className="Home-content-section">
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={f1_profileImg} alt="" /></a>
+                                <Link to="/designer">
+                                    <img src={f1_profileImg} alt="" />
+                                </Link>
                             </div>
                             <div className="Home-content-section-col">
                                 <a href="#"><img src={f1_01Img} alt="" /></a>
@@ -179,7 +182,9 @@ class Home extends Component {
                         </div>
                         <div className="Home-content-section">
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={f2_profileImg} alt="" /></a>
+                                <Link to="/designer">
+                                    <img src={f2_profileImg} alt="" />
+                                </Link>
                             </div>
                             <div className="Home-content-section-col">
                                 <a href="#"><img src={f2_01Img} alt="" /></a>
@@ -229,7 +234,9 @@ class Home extends Component {
                         </div>
                         <div className="Home-content-section">
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={f3_profileImg} alt="" /></a>
+                                <Link to="/designer">
+                                    <img src={f3_profileImg} alt="" />
+                                </Link>
                             </div>
                             <div className="Home-content-section-col">
                                 <a href="#"><img src={f3_01Img} alt="" /></a>
@@ -257,8 +264,10 @@ class Home extends Component {
                         </div>
                         <div className="Home-content-section">
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={u4_profileImg} alt="" /></a>
-                                <a href="#"><img src={u4_profileInfoImg} alt="" /></a>
+                                <Link to="/designer">
+                                    <img src={u4_profileImg} alt="" />
+                                    <img src={u4_profileInfoImg} alt="" />
+                                </Link>
                             </div>
                             <div className="Home-content-section-col">
                                 <a href="#"><img src={u4_01Img} alt="" /></a>
