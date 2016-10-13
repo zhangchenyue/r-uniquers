@@ -2,6 +2,10 @@
     width: 100%;
 }
 
+.Party-jacket-header,
+.Party-trousers-header{
+    text-align: center;
+}
 
 .Party-content{
     position: relative;
@@ -10,11 +14,54 @@
     width: 100%;
     max-width: 1200px;
     padding: 1em;
+    margin-top: 2em;
+}
+
+.Party-jacket-content,
+.Party-trousers-content{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.Party-jacket-content-section,
+.Party-trousers-content-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.Party-jacket-content-section > a:first-child,
+.Party-trousers-content-section > a:first-child{
+   margin-bottom: 2em;
+}
+
+.Party-jacket-content-section > a img,
+.Party-trousers-content-section > a img{
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+
+
+.Party-jacket-content-section > a img:first-child,
+.Party-trousers-content-section > a img:first-child{
+    width: 100%;
+}
+
+.Party-trousers,
+.Party-jacket-more,
+.Party-trousers-more{
+    margin-top: 4em;
 }
 
 
 @media only screen and (max-width: 767px) {
    .Party-content-title {
         max-height: 2em;
+    }
+
+    .Party-content-price{
+        max-height: 3em;
     }
 }
