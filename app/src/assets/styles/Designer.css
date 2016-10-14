@@ -1,4 +1,81 @@
+.Designer{
+    margin-top: 40px;
+}
+
 .Designer-banner{
     width: 100%;
-    margin-top: 40px;
+}
+
+.Designer-content,
+.Designer-section{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    margin-top: 1em;
+    padding: 1em;
+}
+
+.Designer-introduction{
+    margin-right: 1em;
+}
+
+.Designer-introduction-info{
+    margin-top: 1em;
+}
+
+.Designer-profile-img{
+    width: 100%;
+}
+
+.designer-works-item img{
+    width: 100%;
+}
+
+
+.Designer-content .jumbotron{
+    border-radius: 0;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0.5em 2em; 
+}
+
+.Designer-content .jumbotron p {
+    font-size: .8em;
+}
+
+.Designer-content .jumbotron small {
+    font-size: .6em;
+    color: #b5b5b5
+}
+
+.Designer-section-works-items{
+    display: flex;
+    justify-content: center;
+}
+
+.Designer-section-works label.btn.btn-sm.btn-default {
+    border-radius: 0;
+}
+
+.Designer-section-works label.btn.btn-sm.btn-default.active {
+    background-color: #1a1a1a;
+    color: #c9c9c9;
+    border: 1px solid #1a1a1a;
+}
+
+
+.designer-works-item{
+    text-align: center;
+    padding: .5em;
+}
+
+
+.designer-works-item .btn.btn-sm.btn-default.active {
+    background-color: #1a1a1a;
+    color: #c9c9c9;
+    border: 1px solid #1a1a1a;
+    border-radius: 0;
 }
