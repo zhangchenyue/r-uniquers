@@ -30,10 +30,6 @@
     width: 100%;
 }
 
-.designer-works-item img{
-    width: 100%;
-}
-
 
 .Designer-content .jumbotron{
     border-radius: 0;
@@ -67,13 +63,17 @@
 }
 
 
-.designer-works-item{
+.Designer-works-item{
     text-align: center;
     padding: .5em;
 }
 
 
-.designer-works-item .btn.btn-sm.btn-default.active {
+.Designer-works-item img{
+    width: 100%;
+}
+
+.Designer-works-item .btn.btn-sm.btn-default.active {
     background-color: #1a1a1a;
     color: #c9c9c9;
     border: 1px solid #1a1a1a;

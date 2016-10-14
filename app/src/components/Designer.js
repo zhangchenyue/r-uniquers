@@ -55,17 +55,17 @@ class Designer extends Component {
                         </div>
 
                         <div className="Designer-section-works-items">
-                            <div className="designer-works-item">
+                            <div className="Designer-works-item">
                                 <img src={designerWork01Img} alt="" />
                                 <p>格纹鹿皮大衣</p>
                                 <button type="button" className="btn btn-default btn-sm active">347<small> RMB</small></button>
                             </div>
-                            <div className=" designer-works-item">
+                            <div className=" Designer-works-item">
                                 <img src={designerWork02Img} alt="" />
                                 <p>格纹鹿皮大衣</p>
                                 <button type="button" className="btn btn-default btn-sm active">347<small> RMB</small></button>
                             </div>
-                            <div className="designer-works-item">
+                            <div className="Designer-works-item">
                                 <img src={designerWork03Img} alt="" />
                                 <p>格纹鹿皮大衣</p>
                                 <button type="button" className="btn btn-default btn-sm active">347<small> RMB</small></button>
@@ -73,17 +73,17 @@ class Designer extends Component {
                         </div>
 
                         <div className="Designer-section-works-items">
-                            <div className="designer-works-item">
+                            <div className="Designer-works-item">
                                 <img src={designerWork03Img} alt="" />
                                 <p>格纹鹿皮大衣</p>
                                 <button type="button" className="btn btn-default btn-sm active">347<small> RMB</small></button>
                             </div>
-                            <div className=" designer-works-item">
+                            <div className=" Designer-works-item">
                                 <img src={designerWork01Img} alt="" />
                                 <p>格纹鹿皮大衣</p>
                                 <button type="button" className="btn btn-default btn-sm active">347<small> RMB</small></button>
                             </div>
-                            <div className="designer-works-item">
+                            <div className="Designer-works-item">
                                 <img src={designerWork02Img} alt="" />
                                 <p>格纹鹿皮大衣</p>
                                 <button type="button" className="btn btn-default btn-sm active">347<small> RMB</small></button>
