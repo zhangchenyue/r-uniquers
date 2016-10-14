@@ -112,15 +112,15 @@ class Home extends Component {
                         </div>
                         <div className="Home-content-section">
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={u1_01Img} alt="" /></a>
-                                <a href="#"><img src={u1_02Img} alt="" /></a>
+                                <Link to="/detail"><img src={u1_01Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u1_02Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={u1_03Img} alt="" /></a>
-                                <a href="#"><img src={u1_04Img} alt="" /></a>
+                                <Link to="/detail"><img src={u1_03Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u1_04Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col hidden-xs">
-                                <a href="#"><img src={u1_05Img} alt="" /></a>
+                                <Link to="/detail"><img src={u1_05Img} alt="" /></Link>
                             </div>
                         </div>
                     </div>
@@ -137,20 +137,20 @@ class Home extends Component {
                                 </Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={f1_01Img} alt="" /></a>
-                                <a href="#"><img src={f1_01Img} alt="" /></a>
+                                <Link to="/detail"><img src={f1_01Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f1_01Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={f1_02Img} alt="" /></a>
-                                <a href="#"><img src={f1_02Img} alt="" /></a>
+                                <Link to="/detail"><img src={f1_02Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f1_02Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col hidden-xs">
-                                <a href="#"><img src={f1_03Img} alt="" /></a>
-                                <a href="#"><img src={f1_03Img} alt="" /></a>
+                                <Link to="/detail"><img src={f1_03Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f1_03Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col hidden-xs">
-                                <a href="#"><img src={f1_04Img} alt="" /></a>
-                                <a href="#"><img src={f1_04Img} alt="" /></a>
+                                <Link to="/detail"><img src={f1_04Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f1_04Img} alt="" /></Link>
                             </div>
                         </div>
                     </div>
@@ -162,15 +162,15 @@ class Home extends Component {
                         </div>
                         <div className="Home-content-section">
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={u2_01Img} alt="" /></a>
+                                <Link to="/detail"><img src={u2_01Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={u2_02Img} alt="" /></a>
-                                <a href="#"><img src={u2_03Img} alt="" /></a>
+                                <Link to="/detail"><img src={u2_02Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u2_03Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col hidden-xs">
-                                <a href="#"><img src={u2_04Img} alt="" /></a>
-                                <a href="#"><img src={u2_05Img} alt="" /></a>
+                                <Link to="/detail"><img src={u2_04Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u2_05Img} alt="" /></Link>
                             </div>
                         </div>
                     </div>
@@ -187,20 +187,20 @@ class Home extends Component {
                                 </Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={f2_01Img} alt="" /></a>
-                                <a href="#"><img src={f2_01Img} alt="" /></a>
+                                <Link to="/detail"><img src={f2_01Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f2_01Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={f2_02Img} alt="" /></a>
-                                <a href="#"><img src={f2_02Img} alt="" /></a>
+                                <Link to="/detail"><img src={f2_02Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f2_02Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col hidden-xs">
-                                <a href="#"><img src={f2_03Img} alt="" /></a>
-                                <a href="#"><img src={f2_03Img} alt="" /></a>
+                                <Link to="/detail"><img src={f2_03Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f2_03Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col hidden-xs">
-                                <a href="#"><img src={f2_04Img} alt="" /></a>
-                                <a href="#"><img src={f2_04Img} alt="" /></a>
+                                <Link to="/detail"><img src={f2_04Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f2_04Img} alt="" /></Link>
                             </div>
                         </div>
                     </div>
@@ -212,17 +212,17 @@ class Home extends Component {
                         </div>
                         <div className="Home-content-section">
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={u3_01Img} alt="" /></a>
-                                <a href="#"><img src={u3_02Img} alt="" /></a>
-                                <a href="#"><img src={u3_03Img} alt="" /></a>
+                                <Link to="/detail"><img src={u3_01Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u3_02Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u3_03Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={u3_04Img} alt="" /></a>
-                                <a href="#"><img src={u3_05Img} alt="" /></a>
-                                <a href="#"><img src={u3_06Img} alt="" /></a>
+                                <Link to="/detail"><img src={u3_04Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u3_05Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u3_06Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col hidden-xs">
-                                <a href="#"><img src={u3_07Img} alt="" /></a>
+                                <Link to="/detail"><img src={u3_07Img} alt="" /></Link>
                             </div>
                         </div>
                     </div>
@@ -239,20 +239,20 @@ class Home extends Component {
                                 </Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={f3_01Img} alt="" /></a>
-                                <a href="#"><img src={f3_05Img} alt="" /></a>
+                                <Link to="/detail"><img src={f3_01Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f3_05Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={f3_02Img} alt="" /></a>
-                                <a href="#"><img src={f3_06Img} alt="" /></a>
+                                <Link to="/detail"><img src={f3_02Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f3_06Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col hidden-xs">
-                                <a href="#"><img src={f3_03Img} alt="" /></a>
-                                <a href="#"><img src={f3_07Img} alt="" /></a>
+                                <Link to="/detail"><img src={f3_03Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f3_07Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col hidden-xs">
-                                <a href="#"><img src={f3_04Img} alt="" /></a>
-                                <a href="#"><img src={f3_08Img} alt="" /></a>
+                                <Link to="/detail"><img src={f3_04Img} alt="" /></Link>
+                                <Link to="/detail"><img src={f3_08Img} alt="" /></Link>
                             </div>
                         </div>
                     </div>
@@ -270,13 +270,13 @@ class Home extends Component {
                                 </Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={u4_01Img} alt="" /></a>
-                                <a href="#"><img src={u4_02Img} alt="" /></a>
+                                <Link to="/detail"><img src={u4_01Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u4_02Img} alt="" /></Link>
                             </div>
                             <div className="Home-content-section-col">
-                                <a href="#"><img src={u4_03Img} alt="" /></a>
-                                <a href="#"><img src={u4_04Img} alt="" /></a>
-                                <a href="#"><img src={u4_05Img} alt="" /></a>
+                                <Link to="/detail"><img src={u4_03Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u4_04Img} alt="" /></Link>
+                                <Link to="/detail"><img src={u4_05Img} alt="" /></Link>
                             </div>
                         </div>
                     </div>

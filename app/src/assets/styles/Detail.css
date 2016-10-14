@@ -1,0 +1,108 @@
+.Detail-site-map{
+    margin-top: 56px;
+}
+.Detail-site-map a{
+    color: #c1c1c1;  
+}
+
+.buy-selection,
+    .designer-comment{
+        margin:1em auto;
+        padding: 0;
+        background-color: #f6f6f6;
+
+    }
+            
+        .carousel-img{
+            width: 100%;
+        }
+
+        .color-img{
+            height: 72px;
+        }
+        
+        .single-price{
+            color: red;
+            font-size: 1.5em;
+        }
+
+        .size-row-options > div,
+        .rent-row-options >div{
+            border: 1px solid #c1c1c1;
+            margin-right: .8em;
+            margin-bottom: .8em;
+            padding: .1em .5em;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        .size-row-options > div{
+             border: 1px dashed #c5c5c5;
+             background-color: #e5e5e5;
+             color: #c5c5c5;
+         }
+
+        .size-row-options .active,
+        .rent-row-options .active{
+            border: 1px solid black;
+            color: black;
+        }
+
+        .rent-row-options .size-chosen-img{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+        }
+
+        .amount-row-options > span,
+        .amount-row-options > input{
+             margin-right: .5em;
+             text-align: center;
+             display: inline-block;
+        }
+
+         .amount-row-options > span{
+             padding: .25em .2em;
+         }
+
+         .shop-btn-row-line{
+             height: 1px;
+             background-color: #c1c1c1;
+             width: 80%;
+             margin: 2em;
+             text-align: center;
+         }
+    .buy-selection-detail>.row{
+        margin-bottom: 2.5em; 
+        padding: 1em;
+    }
+
+    .buy-selection-detail>.color-row{
+        line-height: 72px;
+    }
+
+    .designer-comment-title{
+        text-align: center;
+        padding: 2em 0;
+    }
+
+
+ @media only screen and (max-width: 767px) {
+     .buy-selection-detail>.row {
+             margin-bottom: 0; 
+             padding: 0.5em 2em;
+        }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+     .buy-selection-detail > .row {
+        margin-bottom: 0;
+        padding: .35em;
+    }
+   .buy-selection  .shop-btn-row-line{
+  
+             margin: 0 .5em .5em 1.5em;
+             padding: 0;
+         
+    }
+}

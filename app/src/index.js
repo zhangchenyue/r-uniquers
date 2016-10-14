@@ -9,6 +9,7 @@ import OL from './components/OL'
 import Vacation from './components/Vacation';
 import Designer from './components/Designer';
 import About from './components/About';
+import Detail from './components/Detail'
 
 import 'imports?jQuery=jquery!bootstrap/dist/js/bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -25,6 +26,7 @@ ReactDOM.render((
       <Route path="/vacation" component={Vacation}/>
       <Route path="/designer" component={Designer}/>
       <Route path="/about" component={About}/>
+      <Route path="/detail" component={Detail}/>
     </Route>
   </Router>
 ), document.getElementById('root'));
