@@ -1,0 +1,7 @@
+.Carousel img{
+    width: 100%;
+}
+
+.Carousel .slick-dots{
+    bottom: 0;
+}

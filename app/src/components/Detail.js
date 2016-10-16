@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 import TopNav from './TopNav'
 import PageFooter from './PageFooter'
+import Carousel from './Carousel';
 
 import '../assets/styles/Detail.css'
 import detailCau01Img from '../assets/images/detail-cau1-01.png'
@@ -22,6 +23,20 @@ class Detail extends Component {
     constructor() {
         super();
         this.text = 'Detail page!';
+        this.adSelectionItems = [];
+        for (var i = 0; i < 4; i++) {
+            this.adSelectionItems.push(
+                <div key={i}><img src={detailCau01Img} alt="" /></div>
+            );
+        }
+
+        this.adCommentItems = [];
+        for (var i = 0; i < 4; i++) {
+            this.adCommentItems.push(
+                <div key={i}><img src={detailCau02Img} alt="" /></div>
+            );
+        }
+
     }
 
     render() {
@@ -37,24 +52,7 @@ class Detail extends Component {
                 <div className="container-fluid buy-selection">
                     <div className="row row-no-padding">
                         <div className="col-xs-12 col-sm-7 col-md-9">
-                            <div id="u-shop-selection-carousel" className="carousel slide" data-ride="carousel" data-interval="2000">
-                                <ol className="carousel-indicators">
-                                    <li data-slide-to="0" className="active"></li>
-                                    <li data-slide-to="1"></li>
-                                    <li data-slide-to="2"></li>
-                                </ol>
-                                <div className="carousel-inner" role="listbox">
-                                    <div className="item active">
-                                        <img className="carousel-img" src={detailCau01Img} alt="First slide" />
-                                    </div>
-                                    <div className="item">
-                                        <img className="carousel-img" src={detailCau01Img} alt="Second slide" />
-                                    </div>
-                                    <div className="item">
-                                        <img className="carousel-img" src={detailCau01Img} alt="Third slide" />
-                                    </div>
-                                </div>
-                            </div>
+                            <Carousel items={this.adSelectionItems} />
                         </div>
                         <div className="col-xs-12 col-sm-5 col-md-3 buy-selection-detail">
                             <div className="row row-no-padding brand-row">
@@ -143,24 +141,7 @@ class Detail extends Component {
                 <div className="container-fluid designer-comment">
                     <div className="row row-no-padding">
                         <div className="col-xs-12 col-sm-7 col-md-9">
-                            <div id="u-designer-comment-carousel" className="carousel slide" data-ride="carousel" data-interval="2000">
-                                <ol className="carousel-indicators">
-                                    <li data-slide-to="0" className="active"></li>
-                                    <li data-slide-to="1"></li>
-                                    <li data-slide-to="2"></li>
-                                </ol>
-                                <div className="carousel-inner" role="listbox">
-                                    <div className="item active">
-                                        <img className="carousel-img" src={detailCau02Img} alt="First slide" />
-                                    </div>
-                                    <div className="item">
-                                        <img className="carousel-img" src={detailCau02Img} alt="Second slide" />
-                                    </div>
-                                    <div className="item">
-                                        <img className="carousel-img" src={detailCau02Img} alt="Third slide" />
-                                    </div>
-                                </div>
-                            </div>
+                            <Carousel items={this.adCommentItems} />
                         </div>
                         <div className="col-xs-12 col-sm-5 col-md-3">
                             <div className="designer-comment-title"><img src={designerCommentTitleImg} alt="" /></div>
